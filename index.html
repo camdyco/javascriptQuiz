@@ -4,9 +4,30 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
     <title>JavaScript Quit</title>
 </head>
 <body>
-    
+    <!-- Start quiz button -->
+    <div class="start_btn"><button>START</button></div>
+
+    <!-- Info box -->
+    <div class="info_box">
+        <div class="info_title">
+            <span>Some Rules of This Quiz</span>
+        </div>
+        <div class="info_list">
+            <div class="info">1. You will only have <span>15 seconds</span> per question</div>
+            <div class="info">2. Once you select your answer, you can't reselect</div>
+            <div class="info">3. You can't select any option once time runs out</div>
+            <div class="info">4. You can't exit the quiz while playing</div>
+            <div class="info">5. You will get points based on your correct answers</div>
+        </div>
+        <div class="buttons">
+            <button class="quit">Exit Quiz</button>
+            <button class="restart">Continue</button>
+        </div>
+    </div>
 </body>
 </html>
